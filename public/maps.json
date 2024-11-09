@@ -1,0 +1,447 @@
+[
+  {
+    "name": "Chain of Ascension",
+    "id": "chain_of_Ascension",
+    "link": "https://starcraft2coop.com/missions/chainofascension",
+    "mapTimings": [
+      {
+        "name": "Delayed Support",
+        "description": "If players choose to delay pushing Ji'Nara, Hybrid waves will automatically spawn at certain times, regardless of her position on the map. These times are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time (Minutes)",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": 9, "techLevel": 3, "strengthLevel": 3},
+          {"wave": 2, "spawnTime": 15, "techLevel": 4, "strengthLevel": 4},
+          {"wave": 3, "spawnTime": 23, "techLevel": 6, "strengthLevel": 6},
+          {"wave": 4, "spawnTime": 30, "techLevel": 6, "strengthLevel": 6}
+        ]
+      },
+      {
+        "name": "Attack Waves",
+        "description": "Attack waves will target a random player (or the player playing on a harder difficulty) and attack them first from their side. Then, the players will alternate in getting attacked until double waves start spawning. Note: Every Hybrid spawn will delay future attack waves by 2 minutes.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Type",
+            "key": "type"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "3:30", "techLevel": 2, "strengthLevel": 2, "type": "Single"},
+          {"wave": 2, "spawnTime": "7:00", "techLevel": 5, "strengthLevel": 5, "type": "Single"},
+          {"wave": 3, "spawnTime": "11:00", "techLevel": 4, "strengthLevel": 4, "type": "Single"},
+          {"wave": 4, "spawnTime": "14:00", "techLevel": 5, "strengthLevel": 5, "type": "Single"},
+          {"wave": 5, "spawnTime": "18:00", "techLevel": 4, "strengthLevel": 4, "type": "Double"},
+          {"wave": 6, "spawnTime": "21:30", "techLevel": 7, "strengthLevel": 5, "type": "Double"},
+          {"wave": 7, "spawnTime": "25:30", "techLevel": 7, "strengthLevel": 6, "type": "Double"},
+        ]
+      },
+      {
+        "name": "Escort Waves",
+        "description": "The Escort Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "3:30", "techLevel": 1, "strengthLevel": 1},
+          {"wave": 2, "spawnTime": "5:00", "techLevel": 1, "strengthLevel": 1},
+          {"wave": 3, "spawnTime": "7:00", "techLevel": 1, "strengthLevel": 1},
+          {"wave": 4, "spawnTime": "9:00", "techLevel": 1, "strengthLevel": 1},
+          {"wave": 5, "spawnTime": "11:00", "techLevel": 2, "strengthLevel": 2},
+          {"wave": 6, "spawnTime": "12:00", "techLevel": 2, "strengthLevel": 2},
+          {"wave": 7, "spawnTime": "13:00", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 8, "spawnTime": "15:00", "techLevel": 2, "strengthLevel": 2},
+          {"wave": 9, "spawnTime": "16:00", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 10, "spawnTime": "16:30", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 11, "spawnTime": "17:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 12, "spawnTime": "18:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 13, "spawnTime": "19:00", "techLevel": 5, "strengthLevel": 5},
+          {"wave": 14, "spawnTime": "20:00", "techLevel": 5, "strengthLevel": 5},
+          {"wave": 15, "spawnTime": "20:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 16, "spawnTime": "21:30", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 17, "spawnTime": "22:00", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 18, "spawnTime": "23:00", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 19, "spawnTime": "24:00", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 20, "spawnTime": "25:00", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 21, "spawnTime": "25:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 22, "spawnTime": "26:00", "techLevel": 5, "strengthLevel": 5},
+          {"wave": 23, "spawnTime": "27:00", "techLevel": 5, "strengthLevel": 5}
+        ]
+      },
+      {
+        "name": "Slayn Elementals (Bonus Objective)",
+        "description": "The timings for the Slayn Elementals are as follows:",
+        "columns": [
+          {
+            "title": "Elemental",
+            "key": "elemental"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          }
+        ],
+        "timings": [
+          {"elemental": 1, "spawnTime": "10:00"},
+          {"elemental": 2, "spawnTime": "16:00"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cradle of Death",
+    "id": "cradle_of_death",
+    "mapTimings": [
+      {
+        "name": "Attack Waves",
+        "description": "Note: Attack Waves will only spawn when there is more than 1:30 left on the clock. If there is less time, the attack waves will be delayed until that particular objective is complete. Once complete, the attack wave will spawn. The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "4:00", "techLevel": 1, "strengthLevel": 1 },
+          {"wave": 2, "spawnTime": "6:00", "techLevel": 1, "strengthLevel": 2 },
+          {"wave": 3, "spawnTime": "9:00", "techLevel": 2, "strengthLevel": 2 },
+          {"wave": 4, "spawnTime": "12:00", "techLevel": 3, "strengthLevel": 2 },
+          {"wave": 5, "spawnTime": "15:00", "techLevel": 4, "strengthLevel": 4 },
+          {"wave": 6, "spawnTime": "18:00", "techLevel": 4, "strengthLevel": 4 },
+          {"wave": 7, "spawnTime": "21:00", "techLevel": 5, "strengthLevel": 5 },
+          {"wave": 8, "spawnTime": "25:00", "techLevel": 6, "strengthLevel": 5 },
+          {"wave": 9, "spawnTime": "29:00", "techLevel": 7, "strengthLevel": 6 }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dead of Night",
+    "id": "dead_of_night",
+    "mapTimings": [
+      {
+        "name": "Attack Waves",
+        "description": "Attack waves always spawn when there is 1:00 left on the night clock. Additionally, they will always come in transports. The side they come from is randomized. The attack wave Tech Levels and Strength Levels for each night are shown below.",
+        "columns": [
+          {
+            "title": "Night",
+            "key": "night"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"night": "1", "techLevel": 0, "strengthLevel": 0},
+          {"night": "2", "techLevel": 2, "strengthLevel": 2},
+          {"night": "3", "techLevel": 3, "strengthLevel": 3},
+          {"night": "4", "techLevel": 4, "strengthLevel": 4},
+          {"night": "5+", "techLevel": 4, "strengthLevel": 4}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lock & Load",
+    "id": "lock_Load",
+    "mapTimings": [
+      {
+        "name": "Attack Waves",
+        "description": "Enemy attack waves will target certain Locks first. The first player-captured Lock on their list will be their target. If all the Locks on their list are overloaded (ie. enemy-controlled), they will target your base.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Targeted Lock",
+            "key": "lockTarget"
+          },
+          {
+            "title": "Number of Waves",
+            "key": "waveCount"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "4:00", "techLevel": 1, "strengthLevel": 3, "lockTarget": "O", "waveCount": "Single Wave from the Left"},
+          {"wave": 2, "spawnTime": "8:00", "techLevel": 2, "strengthLevel": 4, "lockTarget": "S ⇨ O", "waveCount": "Single Wave from the Right"},
+          {"wave": 3, "spawnTime": "11:00", "techLevel": 3, "strengthLevel": 5, "lockTarget": "N ⇨ W ⇨ O, E ⇨ S ⇨ O", "waveCount": "Double Wave"},
+          {"wave": 4, "spawnTime": "14:00", "techLevel": 3, "strengthLevel": 5, "lockTarget": "W ⇨ O, S ⇨ O ", "waveCount": "Double Wave"},
+          {"wave": 5, "spawnTime": "17:00", "techLevel": 4, "strengthLevel": 6, "lockTarget": "N ⇨ W ⇨ O, E ⇨ S", "waveCount": "Double Wave"}
+        ]
+      },
+      {
+        "name": "Post 5th Wave",
+        "description": "After the 5th attack wave, the subsequent attack waves will follow a fixed pattern, starting from the 19-minute mark as shown below. The pattern above will repeat every 2 minutes indefinitely.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Targeted Lock",
+            "key": "lockTarget"
+          },
+          {
+            "title": "Number of Waves",
+            "key": "waveCount"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "19:00", "techLevel": 5, "strengthLevel": 6, "lockTarget": "S, W", "waveCount": "Double Wave"},
+          {"wave": 2, "spawnTime": "21:00", "techLevel": 6, "strengthLevel": 6, "lockTarget": "N ⇨ W, W ⇨ O", "waveCount": "Double Wave"},
+          {"wave": 3, "spawnTime": "23:00", "techLevel": 4, "strengthLevel": 6, "lockTarget": "W ⇨ O ⇨ S, E ⇨ N", "waveCount": "Double Wave"},
+          {"wave": 4, "spawnTime": "25:00", "techLevel": 4, "strengthLevel": 6, "lockTarget": "N ⇨ W, E ⇨ S", "waveCount": "Double Wave"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Malwarfare",
+    "id": "malwarfare",
+    "mapTimings": [
+      {
+        "name": "Suppression Tower Spawns",
+        "description": "All times are shown as time left on the clock to completion of the terminal.",
+        "columns": [
+          {
+            "title": "Terminal",
+            "key": "terminal"
+          },
+          {
+            "title": "Tower",
+            "key": "tower"
+          },
+          {
+            "title": "Time Left",
+            "key": "timeLeft"
+          }
+        ],
+        "timings": [
+          {"terminal": 2, "tower": 1, "timeLeft": "1:00"},
+          {"terminal": 3, "tower": 1, "timeLeft": "1:55"},
+          {"terminal": 3, "tower": 2, "timeLeft": "1:20"},
+          {"terminal": 4, "tower": 1, "timeLeft": "2:20"},
+          {"terminal": 4, "tower": 2, "timeLeft": "1:15"},
+          {"terminal": 4, "tower": 3, "timeLeft": "0:33"},
+          {"terminal": 5, "tower": 1, "timeLeft": "2:10"},
+          {"terminal": 5, "tower": 2, "timeLeft": "1:35"},
+          {"terminal": 5, "tower": 3, "timeLeft": "0:55"},
+          {"terminal": 5, "tower": 4, "timeLeft": "0:55"}
+        ]
+      },
+      {
+        "name": "Harass Waves",
+        "description": "All times are shown as time left on the clock to completion of the terminal. (* and ** are pattern dependent, see SC2COOP page for details.",
+        "columns": [
+          {
+            "title": "Terminal",
+            "key": "terminal"
+          },
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time Left",
+            "key": "timeLeft"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"terminal": 2, "wave": 1, "timeLeft": "2:25", "techLevel": 1, "strengthLevel": 1},
+          {"terminal": 2, "wave": 2, "timeLeft": "2:00", "techLevel": 1, "strengthLevel": 1},
+          {"terminal": 2, "wave": 3, "timeLeft": "1:35", "techLevel": 1, "strengthLevel": 1},
+          {"terminal": 2, "wave": 4, "timeLeft": "1:00", "techLevel": 1, "strengthLevel": 2},
+          {"terminal": 2, "wave": 5, "timeLeft": "0:20", "techLevel": 1, "strengthLevel": 2},
+          {"terminal": 3, "wave": 1, "timeLeft": "2:30", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 2, "timeLeft": "2:15", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 3, "timeLeft": "1:40", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 4, "timeLeft": "1:20", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 5, "timeLeft": "1:00", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 6, "timeLeft": "0:41", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 3, "wave": 7, "timeLeft": "0:20", "techLevel": 2, "strengthLevel": 2},
+          {"terminal": 4, "wave": 1, "timeLeft": "2:25", "techLevel": 3, "strengthLevel": 3},
+          {"terminal": 4, "wave": 2, "timeLeft": "1:40", "techLevel": 5, "strengthLevel": 5},
+          {"terminal": 4, "wave": 3, "timeLeft": "1:10*", "techLevel": 4, "strengthLevel": 4},
+          {"terminal": 4, "wave": 4, "timeLeft": "0:55", "techLevel": 4, "strengthLevel": 4},
+          {"terminal": 4, "wave": 5, "timeLeft": "0:28**", "techLevel": 4, "strengthLevel": 4},
+          {"terminal": 4, "wave": 6, "timeLeft": "0:15", "techLevel": 4, "strengthLevel": 5},
+          {"terminal": 5, "wave": 1, "timeLeft": "2:30", "techLevel": 4, "strengthLevel": 4},
+          {"terminal": 5, "wave": 2, "timeLeft": "1:55", "techLevel": 5, "strengthLevel": 5},
+          {"terminal": 5, "wave": 3, "timeLeft": "1:30", "techLevel": 5, "strengthLevel": 4},
+          {"terminal": 5, "wave": 4, "timeLeft": "0:22", "techLevel": 5, "strengthLevel": 4},
+          {"terminal": 5, "wave": 5, "timeLeft": "0:50", "techLevel": 4, "strengthLevel": 4},
+          {"terminal": 5, "wave": 6, "timeLeft": "0:30", "techLevel": 5, "strengthLevel": 5}
+        ]
+      },
+      {
+        "name": "Attack Waves",
+        "description": "First attack wave always at 3:36, subsequent attack waves occur when the transport is halfway between terminals 2 and 3, and 3 and 4.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "techLevel": 1, "strengthLevel": 1},
+          {"wave": 2, "techLevel": 3, "strengthLevel": 3},
+          {"wave": 3, "techLevel": 4, "strengthLevel": 4}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Miner Evacuation",
+    "id": "miner_evacuation",
+    "mapTimings": []
+  },
+  {
+    "name": "Mist Opportunities",
+    "id": "mist_opportunities",
+    "mapTimings": []
+  },
+  {
+    "name": "Oblivion Express",
+    "id": "oblivion_express",
+    "mapTimings": []
+  },
+  {
+    "name": "Part & Parcel",
+    "id": "part_parcel",
+    "mapTimings": []
+  },
+  {
+    "name": "Rifts to Korhal",
+    "id": "rifts_to_korhal",
+    "mapTimings": []
+  },
+  {
+    "name": "Scythe of Amon",
+    "id": "scythe_of_amon",
+    "mapTimings": []
+  },
+  {
+    "name": "Temple of the Past",
+    "id": "temple_of_the_past",
+    "mapTimings": []
+  },
+  {
+    "name": "The Vermillion Problem",
+    "id": "the_vermillion_problem",
+    "mapTimings": []
+  },
+  {
+    "name": "Void Launch",
+    "id": "void_launch",
+    "mapTimings": []
+  },
+  {
+    "name": "Void Thrashing",
+    "id": "void_thrashing",
+    "mapTimings": []
+  }
+]

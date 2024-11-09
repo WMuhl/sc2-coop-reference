@@ -64,7 +64,7 @@
           {"wave": 4, "spawnTime": "14:00", "techLevel": 5, "strengthLevel": 5, "type": "Single"},
           {"wave": 5, "spawnTime": "18:00", "techLevel": 4, "strengthLevel": 4, "type": "Double"},
           {"wave": 6, "spawnTime": "21:30", "techLevel": 7, "strengthLevel": 5, "type": "Double"},
-          {"wave": 7, "spawnTime": "25:30", "techLevel": 7, "strengthLevel": 6, "type": "Double"},
+          {"wave": 7, "spawnTime": "25:30", "techLevel": 7, "strengthLevel": 6, "type": "Double"}
         ]
       },
       {

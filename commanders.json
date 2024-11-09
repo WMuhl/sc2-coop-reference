@@ -1,0 +1,698 @@
+[
+  {
+    "name": "Raynor",
+    "id": "raynor",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Supply Depot"
+      },
+      {
+        "supplyCount": 16,
+        "description": "Command Center at Rocks"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Barracks"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Orbital Command Upgrade"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Command Center at Rocks"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Orbital Command Upgrade"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 25,
+        "description": "Command Center at Main"
+      }
+    ]
+  },
+  {
+    "name": "Kerrigan",
+    "id": "kerrigan",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 14,
+        "description": "Macro Hatchery at Rocks"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 24,
+        "description": "Macro Hatchery at Rocks"
+      },
+      {
+        "supplyCount": 28,
+        "description": "Spawning Pool"
+      },
+      {
+        "supplyCount": 33,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 33,
+        "description": "Kerrigan -> Rocks"
+      }
+    ]
+  },
+  {
+    "name": "Artanis",
+    "id": "artanis",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 13,
+        "description": "Project Power Field"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Gateway"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Chrono Gateway"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Zealot -> Rocks"
+      },
+      {
+        "supplyCount": 24,
+        "description": "Zealot"
+      },
+      {
+        "supplyCount": 31,
+        "description": "Chrono Nexus"
+      },
+      {
+        "supplyCount": 31,
+        "description": "Nexus"
+      },
+      {
+        "supplyCount": 33,
+        "description": "Cybernetics Core"
+      },
+      {
+        "supplyCount": 34,
+        "description": "Pylon"
+      }
+    ]
+  },
+  {
+    "name": "Swann",
+    "id": "swann",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Supply Depot"
+      },
+      {
+        "supplyCount": 16,
+        "description": "Factory (4 SCV's)"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Billy (4 SCV's)"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Billy (4 SCV's)"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Command Center (8 SCV's)"
+      }
+    ]
+  },
+  {
+    "name": "Zagara",
+    "id": "zagara",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 9,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 11,
+        "description": "Spawning Pool"
+      },
+      {
+        "supplyCount": 11,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 11,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 11,
+        "description": "Baneling Nest"
+      },
+      {
+        "supplyCount": 10,
+        "description": "Zergling -> Rocks"
+      },
+      {
+        "supplyCount": 12,
+        "description": "Zergling -> Rocks"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Hatchery"
+      }
+    ]
+  },
+  {
+    "name": "Vorazun",
+    "id": "vorazun",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 13,
+        "description": "Dark Pylon"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 16,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Gateway"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Pylon"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Change Rally to Expansion"
+      },
+      {
+        "supplyCount": 23,
+        "description": "Cybernetics Core"
+      },
+      {
+        "supplyCount": 27,
+        "description": "Shadowguard -> Gas -> Main"
+      },
+      {
+        "supplyCount": 28,
+        "description": "Twilight + Warp Gate"
+      },
+      {
+        "supplyCount": 29,
+        "description": "Assimilators + Nexus"
+      }
+    ]
+  },
+  {
+    "name": "Karax",
+    "id": "karax",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 13,
+        "description": "20x Orbital Strike -> Rocks"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Nexus"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Pylon"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Forge"
+      },
+      {
+        "supplyCount": 26,
+        "description": "Cannon -> Gas Rock"
+      },
+      {
+        "supplyCount": 32,
+        "description": "Cannon -> Gas Rock"
+      }
+    ]
+  },
+  {
+    "name": "Abathur",
+    "id": "abathur",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Roach Warren"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Spine Crawler"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Spine Crawler"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Roach"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Hatchery"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Extractor"
+      }
+    ]
+  },
+  {
+    "name": "Alarak",
+    "id": "alarak",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Pylon"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Assimilator (No Probes)"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Pylon (Overcharge)"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Nexus"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Probes -> Assimilator"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Gateway"
+      }
+    ]
+  },
+  {
+    "name": "Nova",
+    "id": "nova",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Command Center"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Barracks"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Marines -> Rocks"
+      }
+    ]
+  },
+  {
+    "name": "Stukov",
+    "id": "stukov",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 15,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 15,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Command Center at Rocks"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Anaerobic Enhancement"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Engineering Bay"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 24,
+        "description": "Broodling Gestation"
+      },
+      {
+        "supplyCount": 25,
+        "description": "Barracks"
+      }
+    ]
+  },
+  {
+    "name": "Fenix",
+    "id": "fenix",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 15,
+        "description": "Pylon"
+      },
+      {
+        "supplyCount": 16,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Robotics Facility"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Assimilator"
+      },
+      {
+        "supplyCount": 22,
+        "description": "Immortal + AI -> Rocks"
+      },
+      {
+        "supplyCount": 26,
+        "description": "Pylon"
+      },
+      {
+        "supplyCount": 31,
+        "description": "Nexus"
+      }
+    ]
+  },
+  {
+    "name": "Dehaka",
+    "id": "dehaka",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 23,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 23,
+        "description": "Primal Warden"
+      },
+      {
+        "supplyCount": 25,
+        "description": "Extractor"
+      },
+      {
+        "supplyCount": 29,
+        "description": "Glevig's Den"
+      },
+      {
+        "supplyCount": 29,
+        "description": "2x Zerglings -> Rocks"
+      },
+      {
+        "supplyCount": 29,
+        "description": "Primal Warden -> Rocks"
+      },
+      {
+        "supplyCount": 31,
+        "description": "Primal Hive"
+      }
+    ]
+  },
+  {
+    "name": "Han &  Horner",
+    "id": "horner",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Supply Depot"
+      },
+      {
+        "supplyCount": 17,
+        "description": "Command Center"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Assault Galleon"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 20,
+        "description": "2x Hellions -> Rocks"
+      }
+    ]
+  },
+  {
+    "name": "Tychus",
+    "id": "tychus",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 17,
+        "description": "Command Center"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Refinery"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Engineering Bay"
+      },
+      {
+        "supplyCount": 22,
+        "description": "2x Turrets -> Rocks"
+      }
+    ]
+  },
+  {
+    "name": "Zeratul",
+    "id": "zeratul",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 18,
+        "description": "Probe -> Expo"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Zoraya Legion"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Nexus"
+      }
+    ]
+  },
+  {
+    "name": "Stetmann",
+    "id": "stetmann",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 14,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 14,
+        "description": "Extractor (2 drones on completion)"
+      },
+      {
+        "supplyCount": 14,
+        "description": "Extractor (2 drones on completion)"
+      },
+      {
+        "supplyCount": 19,
+        "description": "Spawning Pool"
+      },
+      {
+        "supplyCount": 18,
+        "description": "Lair"
+      },
+      {
+        "supplyCount": 18,
+        "description": "2x Zerglings to Expo"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Drone"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Infestation Pit"
+      },
+      {
+        "supplyCount": 20,
+        "description": "Drone"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Overlord"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Saturate gasses at 200 minerals"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Hive"
+      },
+      {
+        "supplyCount": 21,
+        "description": "Saturate mineral line"
+      }
+    ]
+  },
+  {
+    "name": "Mengsk",
+    "id": "mengsk",
+    "recommendedBuildOrder": [
+      {
+        "supplyCount": 13,
+        "description": "Bunker Calldown at Expo"
+      },
+      {
+        "supplyCount": 24,
+        "description": "Bunker keeping 16 laborers on Main"
+      },
+      {
+        "supplyCount": 25,
+        "description": "Unload expo bunker + clear rocks"
+      },
+      {
+        "supplyCount": 28,
+        "description": "4 Laborers -> Expo"
+      },
+      {
+        "supplyCount": 30,
+        "description": "Enlistment Center with 4 Laborers"
+      },
+      {
+        "supplyCount": 32,
+        "description": "Troopers to Laborers to fast-build expo"
+      },
+      {
+        "supplyCount": 32,
+        "description": "Bunker Calldown, Unload to Laborer"
+      },
+      {
+        "supplyCount": 38,
+        "description": "Refinery with 3 Laborers"
+      },
+      {
+        "supplyCount": 38,
+        "description": "Refinery with 3 Laborers"
+      },
+      {
+        "supplyCount": 39,
+        "description": "Refinery with 3 Laborers"
+      },
+      {
+        "supplyCount": 41,
+        "description": "Refinery with 3 Laborers"
+      },
+      {
+        "supplyCount": 45,
+        "description": "Barracks with 8 Laborers"
+      },
+      {
+        "supplyCount": 50,
+        "description": "Factory with 8 Laborers"
+      },
+      {
+        "supplyCount": 53,
+        "description": "Starport with 8 Laborers"
+      },
+      {
+        "supplyCount": 56,
+        "description": "Imperial Witness"
+      }
+    ]
+  }
+]

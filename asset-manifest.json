@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sc2-coop-reference/static/css/main.dc4d6ff2.css",
+    "main.js": "/sc2-coop-reference/static/js/main.c3e9fe6d.js",
+    "static/js/453.e7272128.chunk.js": "/sc2-coop-reference/static/js/453.e7272128.chunk.js",
+    "index.html": "/sc2-coop-reference/index.html",
+    "main.dc4d6ff2.css.map": "/sc2-coop-reference/static/css/main.dc4d6ff2.css.map",
+    "main.c3e9fe6d.js.map": "/sc2-coop-reference/static/js/main.c3e9fe6d.js.map",
+    "453.e7272128.chunk.js.map": "/sc2-coop-reference/static/js/453.e7272128.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.c3e9fe6d.js"
+  ]
+}

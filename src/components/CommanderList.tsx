@@ -20,7 +20,7 @@ const CommanderList: React.FC = () => {
     useEffect(() => {
         const fetchCommanders = async () => {
             try {
-                const response = await fetch("/commanders.json");
+                const response = await fetch(`${process.env.PUBLIC_URL}/commanders.json`);
                 if (!response.ok) {
                     throw new Error("Could not fetch commanders");
                 }

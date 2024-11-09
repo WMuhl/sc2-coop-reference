@@ -29,7 +29,7 @@ const MapList: React.FC = () => {
     useEffect(() => {
         const fetchMaps = async () => {
             try {
-                const response = await fetch('/maps.json');
+                const response = await fetch(`${process.env.PUBLIC_URL}/maps.json`);
                 if (!response.ok) {
                     throw new Error('Could not fetch maps');
                 } 

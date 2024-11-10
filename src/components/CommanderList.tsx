@@ -9,13 +9,14 @@ interface Commander {
     name: string;
     id: string;
     recommendedBuildOrder: BuildStep[];
+    link: string;
 }
 
 const CommanderList: React.FC = () => {
-    const[ commanders, setCommanders ] = useState<Commander[]>([]);
-    const[ selectedCommander, setCommander ] = useState<Commander | null>(null);
-    const [ loading, setLoading ] = useState<boolean>(true);
-    const [ error, setError ] = useState<string | null>(null);
+    const [commanders, setCommanders] = useState<Commander[]>([]);
+    const [selectedCommander, setCommander] = useState<Commander | null>(null);
+    const [loading, setLoading] = useState<boolean>(true);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         const fetchCommanders = async () => {
@@ -35,27 +36,29 @@ const CommanderList: React.FC = () => {
         }
         fetchCommanders();
     }, []);
-    
+
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error}</p>;
-    
+
     return (
         <div>
-            <h1>Commanders</h1>
-            <select value={selectedCommander?.id} 
-                    onChange={(e) => setCommander(commanders.find(commander => commander.id === e.target.value) ?? null)}
+            <h1>Build Orders</h1>
+            <select
+                value={selectedCommander?.id}
+                onChange={(e) => setCommander(commanders.find(commander => commander.id === e.target.value) ?? null)}
             >
                 {commanders.map((commander) => (
-                    <option value={commander.id}>
+                    <option key={commander.id} value={commander.id}>
                         {commander.name}
                     </option>
                 ))}
             </select>
+            <p><a href={selectedCommander?.link}>{selectedCommander?.link}</a></p>
             <h2>Build Order</h2>
             <pre>
                 <code>
                     {selectedCommander?.recommendedBuildOrder.map((buildStep, index) => (
-                        <React.Fragment key={index}>
+                        <React.Fragment key={`${buildStep.supplyCount}-${index}`}>
                             {index > 0 && <span>{"\n"}</span>}
                             {buildStep.supplyCount} {buildStep.description}
                         </React.Fragment>
@@ -67,3 +70,4 @@ const CommanderList: React.FC = () => {
 };
 
 export default CommanderList;
+

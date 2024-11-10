@@ -137,6 +137,7 @@
   {
     "name": "Cradle of Death",
     "id": "cradle_of_death",
+    "link": "https://starcraft2coop.com/missions/cradleofdeath",
     "mapTimings": [
       {
         "name": "Attack Waves",
@@ -176,6 +177,7 @@
   {
     "name": "Dead of Night",
     "id": "dead_of_night",
+    "link": "https://starcraft2coop.com/missions/deadofnight",
     "mapTimings": [
       {
         "name": "Attack Waves",
@@ -207,6 +209,7 @@
   {
     "name": "Lock & Load",
     "id": "lock_Load",
+    "link": "https://starcraft2coop.com/missions/lockload",
     "mapTimings": [
       {
         "name": "Attack Waves",
@@ -286,6 +289,7 @@
   {
     "name": "Malwarfare",
     "id": "malwarfare",
+    "link": "https://starcraft2coop.com/missions/malwarfare",
     "mapTimings": [
       {
         "name": "Suppression Tower Spawns",
@@ -397,51 +401,804 @@
   {
     "name": "Miner Evacuation",
     "id": "miner_evacuation",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/minerevacuation",
+    "mapTimings": [
+      {
+        "name": "Attack Waves",
+        "description": "These are attack waves that target your main and your expansion.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "spawnTime": "6:30", "techLevel": 2, "strengthLevel": 2},
+          {"wave": 2, "spawnTime": "13:00", "techLevel": 3, "strengthLevel": 3},
+          {"wave": 3, "spawnTime": "17:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 4, "spawnTime": "23:00", "techLevel": 5, "strengthLevel": 5},
+          {"wave": 5, "spawnTime": "26:30", "techLevel": 4, "strengthLevel": 4},
+          {"wave": 7, "spawnTime": "28:00", "techLevel": 6, "strengthLevel": 6},
+          {"wave": 7, "spawnTime": "32:00", "techLevel": 6, "strengthLevel": 6}
+        ]
+      },
+      {
+        "name": "Panic Timers",
+        "description": "If ships are not launched fast enough, a ship will start to panic and force a launch. This forces players to play more aggressively. Launching a ship early will cancel that panic time. This can be useful for avoiding harder ships. The panic times are shown below.",
+        "columns": [
+          {
+            "title": "Ship",
+            "key": "ship"
+          },
+          {
+            "title": "Panic Time",
+            "key": "panicTime"
+          }
+        ],
+        "timings": [
+          { "ship": 1, "panicTime": "3:45" },
+          { "ship": 2, "panicTime": "12:00" },
+          { "ship": 3, "panicTime": "16:30" },
+          { "ship": 4, "panicTime": "23:30" },
+          { "ship": 5, "panicTime": "27:00" },
+          { "ship": 6, "panicTime": "29:00" },
+          { "ship": 7, "panicTime": "29:30" }
+        ]
+      },
+      {
+        "name": "Claimer Waves",
+        "description": "Claimer waves will target ships in an attempt to destroy them. The timings, Strength and Tech Levels of these waves is shown below.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "8:00", "techLevel": 1, "strengthLevel": 1},
+          { "wave": 2, "spawnTime": "15:12", "techLevel": 2, "strengthLevel": 2},
+          { "wave": 3, "spawnTime": "19:18", "techLevel": 1, "strengthLevel": 1},
+          { "wave": 4, "spawnTime": "19:24", "techLevel": 1, "strengthLevel": 1},
+          { "wave": 5, "spawnTime": "26:00", "techLevel": 4, "strengthLevel": 4}
+        ]
+      }
+    ]
   },
   {
     "name": "Mist Opportunities",
     "id": "mist_opportunities",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/mistopportunities",
+    "mapTimings": [
+      {
+        "name": "Attack Waves",
+        "description": "These are waves that target your base.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Notes",
+            "key": "notes"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "3:00", "techLevel": 1, "strengthLevel": 1, "notes": "" },
+          { "wave": 2, "spawnTime": "10:00", "techLevel": 3, "strengthLevel": 3, "notes": "" },
+          { "wave": 3, "spawnTime": "15:30", "techLevel": 4, "strengthLevel": 4, "notes": "Includes Hybrids" },
+          { "wave": 4, "spawnTime": "21:15", "techLevel": 5, "strengthLevel": 5, "notes": "" },
+          { "wave": 5, "spawnTime": "28:06", "techLevel": 6, "strengthLevel": 6, "notes": "Includes Hybrids" }
+        ]
+      },
+      {
+        "name": "Harvester Times",
+        "description": "These are the times when the harvester bots are sent out, making them vulnerable to attack.",
+        "columns": [
+          {
+            "title": "Bot Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Warning Time",
+            "key": "warnTime"
+          },
+          {
+            "title": "Spawn Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Leave Time",
+            "key": "leaveTime"
+          }
+        ],
+        "timings": [
+          {"wave": 1, "warnTime": "3:30", "spawnTime": "4:15", "leaveTime": "4:35" },
+          {"wave": 2, "warnTime": "6:45", "spawnTime": "7:30", "leaveTime": "7:55" },
+          {"wave": 3, "warnTime": "11:00", "spawnTime": "11:45", "leaveTime": "12:10" },
+          {"wave": 4, "warnTime": "17:00", "spawnTime": "17:45", "leaveTime": "18:20" },
+          {"wave": 5, "warnTime": "23:40", "spawnTime": "24:25", "leaveTime": "25:00" }
+        ]
+      },
+      {
+        "name": "Harasser Times",
+        "description": "These are waves specifically targeting the bots to destroy them.",
+        "columns": [
+          {
+            "title": "Bot Wave",
+            "key": "botWave"
+          },
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          { "botWave": 1, "wave": 1, "spawnTime": "5:00", "techLevel": 1, "strengthLevel": 1 },
+          { "botWave": 1, "wave": 2, "spawnTime": "5:25", "techLevel": 1, "strengthLevel": 1 },
+          { "botWave": 2, "wave": 1, "spawnTime": "8:15", "techLevel": 2, "strengthLevel": 3 },
+          { "botWave": 2, "wave": 2, "spawnTime": "8:40", "techLevel": 2, "strengthLevel": 3 },
+          { "botWave": 2, "wave": 3, "spawnTime": "9:05", "techLevel": 2, "strengthLevel": 3 },
+          { "botWave": 2, "wave": 4, "spawnTime": "9:30", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 3, "wave": 1, "spawnTime": "12:25", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 3, "wave": 2, "spawnTime": "12:50", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 3, "wave": 3, "spawnTime": "13:15", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 3, "wave": 4, "spawnTime": "13:40", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 3, "wave": 5, "spawnTime": "14:00", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 3, "wave": 6, "spawnTime": "14:25", "techLevel": 3, "strengthLevel": 3 },
+          { "botWave": 4, "wave": 1, "spawnTime": "18:40", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 4, "wave": 2, "spawnTime": "19:15", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 4, "wave": 3, "spawnTime": "19:50", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 4, "wave": 4, "spawnTime": "19:55", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 4, "wave": 5, "spawnTime": "20:25", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 4, "wave": 6, "spawnTime": "21:00", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 5, "wave": 1, "spawnTime": "25:10", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 5, "wave": 2, "spawnTime": "25:30", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 5, "wave": 3, "spawnTime": "25:50", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 5, "wave": 4, "spawnTime": "26:05", "techLevel": 4, "strengthLevel": 4 },
+          { "botWave": 5, "wave": 5, "spawnTime": "26:25", "techLevel": 5, "strengthLevel": 5 },
+          { "botWave": 5, "wave": 6, "spawnTime": "27:00", "techLevel": 5, "strengthLevel": 5 },
+          { "botWave": 5, "wave": 7, "spawnTime": "27:35", "techLevel": 5, "strengthLevel": 5 },
+          { "botWave": 5, "wave": 8, "spawnTime": "28:10", "techLevel": 5, "strengthLevel": 5 },
+          { "botWave": 5, "wave": 9, "spawnTime": "28:45", "techLevel": 5, "strengthLevel": 5 }
+        ]
+      }
+    ]
   },
   {
     "name": "Oblivion Express",
     "id": "oblivion_express",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/oblivionexpress",
+    "mapTimings": [
+      {
+        "name": "Train Times",
+        "description": "These are the spawn times of the trains and their locations.",
+        "columns": [
+          {
+            "title": "Train(s)",
+            "key": "train"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Rail",
+            "key": "rails"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          { "train": "1", "spawnTime": "5:00", "rails": "Top", "techLevel": 2, "strengthLevel": 2},
+          { "train": "2", "spawnTime": "8:00", "rails": "Mid", "techLevel": 3, "strengthLevel": 4},
+          { "train": "3", "spawnTime": "11:00", "rails": "Top", "techLevel": 4, "strengthLevel": 5},
+          { "train": "Bonus", "spawnTime": "12:00", "rails": "Bot", "techLevel": 1, "strengthLevel": 0},
+          { "train": "4,5", "spawnTime": "14:00", "rails": "Top/Mid", "techLevel": 6, "strengthLevel": 6},
+          { "train": "6", "spawnTime": "17:00", "rails": "Mid", "techLevel": 7, "strengthLevel": 6},
+          { "train": "7,8", "spawnTime": "20:00", "rails": "Top/Mid", "techLevel": 5, "strengthLevel": 5},
+          { "train": "Bonus", "spawnTime": "21:00", "rails": "Bot", "techLevel": 1, "strengthLevel": 0},
+          { "train": "9", "spawnTime": "23:00", "rails": "Mid", "techLevel": 7, "strengthLevel": 7},
+          { "train": "10", "spawnTime": "25:00", "rails": "Top/Mid", "techLevel": 7, "strengthLevel": 7}
+        ]
+      },
+      {
+        "name": "Attack Times",
+        "description": "The spawn timings, direction, Strength and Tech Level of the attack waves is shown below. The directions denote which ramp the attack waves will push. Note that North attack waves will target your expansion.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Direction",
+            "key": "direction"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "4:00", "direction": "North", "techLevel": 1, "strengthLevel": 1},
+          { "wave": 2, "spawnTime": "6:00", "direction": "South", "techLevel": 2, "strengthLevel": 2},
+          { "wave": 3, "spawnTime": "7:00", "direction": "North", "techLevel": 1, "strengthLevel": 1},
+          { "wave": 4, "spawnTime": "10:00", "direction": "South", "techLevel": 3, "strengthLevel": 3},
+          { "wave": 5, "spawnTime": "13:00", "direction": "North", "techLevel": 4, "strengthLevel": 4},
+          { "wave": 6, "spawnTime": "16:00", "direction": "North", "techLevel": 5, "strengthLevel": 5},
+          { "wave": 7, "spawnTime": "19:00", "direction": "South", "techLevel": 6, "strengthLevel": 6},
+          { "wave": 8, "spawnTime": "22:00", "direction": "North", "techLevel": 7, "strengthLevel": 7},
+          { "wave": 9, "spawnTime": "24:00", "direction": "South", "techLevel": 7, "strengthLevel": 7}
+        ]
+      }
+    ]
   },
   {
     "name": "Part & Parcel",
     "id": "part_parcel",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/partparcel",
+    "mapTimings": [
+      {
+        "name": "Attack Times",
+        "description": "The timings for the attack waves, Strength and Tech Levels and targets on this map are shown below.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Target",
+            "key": "target"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "3:45", "techLevel": 1, "strengthLevel": 1, "target": "Main Base" },
+          { "wave": 2, "spawnTime": "6:30", "techLevel": 2, "strengthLevel": 2, "target": "Main Base" },
+          { "wave": 3, "spawnTime": "10:00", "techLevel": 3, "strengthLevel": 3, "target": "Expansion" },
+          { "wave": 4, "spawnTime": "14:06", "techLevel": 4, "strengthLevel": 4, "target": "Main Base" },
+          { "wave": 5, "spawnTime": "17:12", "techLevel": 5, "strengthLevel": 5, "target": "Expansion" },
+          { "wave": 6, "spawnTime": "20:00", "techLevel": 6, "strengthLevel": 6, "target": "Main Base" },
+          { "wave": 7, "spawnTime": "24:00", "techLevel": 7, "strengthLevel": 7, "target": "Army" },
+          { "wave": 8, "spawnTime": "27:00", "techLevel": 5, "strengthLevel": 5, "target": "Main Base" },
+          { "wave": 9, "spawnTime": "30:00", "techLevel": 6, "strengthLevel": 6, "target": "Main Base" }
+        ]
+      },
+      {
+        "name": "Bonus Train Times",
+        "description": "The spawn timings for the Bonus trains is below:",
+        "columns": [
+          {
+            "title": "Train",
+            "key": "train"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Spawn Location",
+            "key": "location"
+          }
+        ],
+        "timings": [
+          { "train": 1, "spawnTime": "8:00", "location": "Left" },
+          { "train": 2, "spawnTime": "15:00", "location": "Right" }
+        ]
+      }
+    ]
   },
   {
     "name": "Rifts to Korhal",
     "id": "rifts_to_korhal",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/riftstokorhal",
+    "mapTimings": [
+      {
+        "name": "Attack Times",
+        "description": "The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Notes",
+            "key": "notes"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "2:00", "techLevel": 1, "strengthLevel": 1, "notes": "" },
+          { "wave": 2, "spawnTime": "5:00", "techLevel": 2, "strengthLevel": 2, "notes": "" },
+          { "wave": 3, "spawnTime": "8:00", "techLevel": 3, "strengthLevel": 3, "notes": "If only one expansion is built, targets that \n Otherwise, targets random expansion." },
+          { "wave": 4, "spawnTime": "11:00", "techLevel": 4, "strengthLevel": 4, "notes": "" },
+          { "wave": 5, "spawnTime": "14:00", "techLevel": 5, "strengthLevel": 5, "notes": "Targets the other expansion" },
+          { "wave": 6, "spawnTime": "17:00", "techLevel": 6, "strengthLevel": 6, "notes": "" },
+          { "wave": 7, "spawnTime": "20:30", "techLevel": 7, "strengthLevel": 7, "notes": "" },
+          { "wave": 8, "spawnTime": "24:30", "techLevel": 7, "strengthLevel": 7, "notes": "" },
+          { "wave": 9, "spawnTime": "26:30", "techLevel": 7, "strengthLevel": 7, "notes": "" },
+          { "wave": 10, "spawnTime": "28:30", "techLevel": 7, "strengthLevel": 7, "notes": "" },
+          { "wave": 11, "spawnTime": "30:00", "techLevel": 7, "strengthLevel": 7, "notes": "" }
+        ]
+      }
+    ]
   },
   {
     "name": "Scythe of Amon",
     "id": "scythe_of_amon",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/scytheofamon",
+    "mapTimings": [
+      {
+        "name": "Attack Times",
+        "description": "The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Minor Hybrids",
+            "key": "minorHybrids"
+          },
+          {
+            "title": "Major Hybrids",
+            "key": "majorHybrids"
+          }
+        ],
+        "timings": [
+          { "wave": 1, "spawnTime": "2:48", "techLevel": 1, "strengthLevel": 1, "minorHybrids": 0, "majorHybrids": 0 },
+          { "wave": 2, "spawnTime": "7:00", "techLevel": 2, "strengthLevel": 2, "minorHybrids": 1, "majorHybrids": 0 },
+          { "wave": 3, "spawnTime": "9:00", "techLevel": 3, "strengthLevel": 3, "minorHybrids": 1, "majorHybrids": 0 },
+          { "wave": 4, "spawnTime": "12:30", "techLevel": 4, "strengthLevel": 4, "minorHybrids": 2, "majorHybrids": 1 },
+          { "wave": 5, "spawnTime": "16:00", "techLevel": 5, "strengthLevel": 5, "minorHybrids": 2, "majorHybrids": 1 },
+          { "wave": 6, "spawnTime": "19:00", "techLevel": 6, "strengthLevel": 6, "minorHybrids": 2, "majorHybrids": 1 },
+          { "wave": 7, "spawnTime": "22:00", "techLevel": 5, "strengthLevel": 5, "minorHybrids": 2, "majorHybrids": 1 },
+          { "wave": 8, "spawnTime": "24:00", "techLevel": 6, "strengthLevel": 6, "minorHybrids": 2, "majorHybrids": 1 },
+          { "wave": 9, "spawnTime": "26:00", "techLevel": 6, "strengthLevel": 6, "minorHybrids": 2, "majorHybrids": 1 }
+        ]
+      }
+    ]
   },
   {
     "name": "Temple of the Past",
     "id": "temple_of_the_past",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/templeofthepast",
+    "mapTimings": [
+      {
+        "name": "Attack Pattern A Times",
+        "description": "There are two patterns on this mission. The patterns are shown below. Attack directions show you to direction the attack wave moves in.",
+        "columns": [
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Direction",
+            "key": "direction"
+          },
+          {
+            "title": "Notes",
+            "key": "notes"
+          }
+        ],
+        "timings": [
+          { "spawnTime": "3:00", "techLevel": "1", "strengthLevel": "1", "direction": "↗", "notes": "-"},
+          { "spawnTime": "4:00", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "-"},
+          { "spawnTime": "6:00", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "1 Minor Hybrid"},
+          { "spawnTime": "6:45", "techLevel": "1", "strengthLevel": "2", "direction": "↗", "notes": "-"},
+          { "spawnTime": "7:30", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "-"},
+          { "spawnTime": "8:15", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "Thrasher + Attack Wave"},
+          { "spawnTime": "9:00", "techLevel": "3", "strengthLevel": "3", "direction": "↘↖", "notes": "-"},
+          { "spawnTime": "10:00", "techLevel": "4,2", "strengthLevel": "3,3", "direction": "↘↖", "notes": "1 Minor Hybrid for Player 1"},
+          { "spawnTime": "11:00", "techLevel": "4,4", "strengthLevel": "4,3", "direction": "↘↖", "notes": "-"},
+          { "spawnTime": "12:00", "techLevel": "3", "strengthLevel": "4", "direction": "↗", "notes": "-"},
+          { "spawnTime": "12:30", "techLevel": "4", "strengthLevel": "4", "direction": "↗", "notes": "-"},
+          { "spawnTime": "13:15", "techLevel": "5", "strengthLevel": "4", "direction": "↗", "notes": "-"},
+          { "spawnTime": "13:45", "techLevel": "-", "strengthLevel": "-", "direction": "↖", "notes": "Thrasher Only"},
+          { "spawnTime": "15:00", "techLevel": "3", "strengthLevel": "3", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis"},
+          { "spawnTime": "15:20", "techLevel": "4", "strengthLevel": "4", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis"},
+          { "spawnTime": "16:10", "techLevel": "2", "strengthLevel": "2", "direction": "↙", "notes": "Drop Pod/Warp-in"},
+          { "spawnTime": "16:40", "techLevel": "3", "strengthLevel": "3", "direction": "↙", "notes": "Drop Pod/Warp-in"},
+          { "spawnTime": "16:55", "techLevel": "-", "strengthLevel": "-", "direction": "↘", "notes": "Thrasher Only"},
+          { "spawnTime": "18:00", "techLevel": "5", "strengthLevel": "5", "direction": "↘", "notes": "3 Minor Hybrid<br>1 Hybrid Nemesis<br>1 Major Hybrid"},
+          { "spawnTime": "18:15", "techLevel": "3", "strengthLevel": "5", "direction": "↖", "notes": "3 Minor Hybrid<br>1 Hybrid Nemesis<br>1 Major Hybrid"},
+          { "spawnTime": "19:15", "techLevel": "4", "strengthLevel": "4", "direction": "↙", "notes": "Air Drop"},
+          { "spawnTime": "20:00", "techLevel": "5", "strengthLevel": "5", "direction": "↗", "notes": "-"},
+          { "spawnTime": "20:15", "techLevel": "3", "strengthLevel": "3", "direction": "?", "notes": "Double Drop Pod/Warp-in"},
+          { "spawnTime": "20:45", "techLevel": "2,4", "strengthLevel": "3,3", "direction": "?", "notes": "Double Drop Pod/Warp-in"},
+          { "spawnTime": "21:15", "techLevel": "3", "strengthLevel": "3", "direction": "?", "notes": "Double Drop Pod/Warp-in"},
+          { "spawnTime": "21:30", "techLevel": "2", "strengthLevel": "3", "direction": "?", "notes": "Double Drop Pod/Warp-in"},
+          { "spawnTime": "22:00", "techLevel": "6", "strengthLevel": "5", "direction": "↗", "notes": "-"},
+          { "spawnTime": "22:30", "techLevel": "4,6", "strengthLevel": "5,5", "direction": "↘↖", "notes": "Double Thrasher + Attack Wave"},
+          { "spawnTime": "23:30", "techLevel": "5", "strengthLevel": "5", "direction": "↘", "notes": "4 Minor Hybrid<br>2 Hybrid Nemesis<br>1 Major Hybrid"},
+          { "spawnTime": "23:40", "techLevel": "3", "strengthLevel": "5", "direction": "↖", "notes": "3 Minor Hybrid<br>2 Hybrid Nemesis<br>1 Major Hybrid"},
+          { "spawnTime": "24:40", "techLevel": "5,6,7", "strengthLevel": "5,5,7", "direction": "↘↖↗", "notes": "-"}
+        ]
+      },
+      {
+        "name": "Attack Pattern B Times",
+        "description": "There are two patterns on this mission. The patterns are shown below. Attack directions show you to direction the attack wave moves in.",
+        "columns": [
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Direction",
+            "key": "direction"
+          },
+          {
+            "title": "Notes",
+            "key": "notes"
+          }
+        ],
+        "timings": [
+          { "spawnTime": "3:00", "techLevel": "1", "strengthLevel": "1", "direction": "↗", "notes": "-" },
+          { "spawnTime": "4:10", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "-" },
+          { "spawnTime": "6:00", "techLevel": "2", "strengthLevel": "2", "direction": "↗", "notes": "1 Minor Hybrid" },
+          { "spawnTime": "6:45", "techLevel": "1", "strengthLevel": "1", "direction": "↗", "notes": "-" },
+          { "spawnTime": "7:30", "techLevel": "2", "strengthLevel": "3", "direction": "↗", "notes": "-" },
+          { "spawnTime": "8:15", "techLevel": "-", "strengthLevel": "-", "direction": "↗", "notes": "Thrasher Only" },
+          { "spawnTime": "9:00", "techLevel": "3", "strengthLevel": "3", "direction": "↘ or ↖", "notes": "Two 3/3 Attack Waves together" },
+          { "spawnTime": "10:00", "techLevel": "4,2", "strengthLevel": "3,3", "direction": "↘↖", "notes": "1 Minor Hybrid for Player 1<br>2 Minor Hybrid for Player 2" },
+          { "spawnTime": "11:00", "techLevel": "4", "strengthLevel": "4", "direction": "↖ or ↘", "notes": "Two 4/4 Attack Waves together" },
+          { "spawnTime": "12:00", "techLevel": "3", "strengthLevel": "4", "direction": "↗", "notes": "-" },
+          { "spawnTime": "12:30", "techLevel": "4", "strengthLevel": "4", "direction": "↗", "notes": "3 Minor Hybrid" },
+          { "spawnTime": "13:35", "techLevel": "5", "strengthLevel": "4", "direction": "↖", "notes": "-" },
+          { "spawnTime": "13:45", "techLevel": "-", "strengthLevel": "-", "direction": "↖", "notes": "Thrasher Only" },
+          { "spawnTime": "15:00", "techLevel": "2", "strengthLevel": "2", "direction": "↙", "notes": "Drop Pod/Warp-in" },
+          { "spawnTime": "15:30", "techLevel": "3", "strengthLevel": "3", "direction": "↖", "notes": "Drop Pod/Warp-in" },
+          { "spawnTime": "15:45", "techLevel": "-", "strengthLevel": "-", "direction": "↘", "notes": "Thrasher Only" },
+          { "spawnTime": "16:35", "techLevel": "3", "strengthLevel": "3", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis" },
+          { "spawnTime": "16:55", "techLevel": "4", "strengthLevel": "4", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis" },
+          { "spawnTime": "18:00", "techLevel": "5", "strengthLevel": "5", "direction": "↘ or ↗", "notes": "3 Minor Hybrid<br>1 Hybrid Nemesis<br>1 Major Hybrid" },
+          { "spawnTime": "18:15", "techLevel": "3", "strengthLevel": "5", "direction": "↖ or ↗", "notes": "3 Minor Hybrid<br>1 Hybrid Nemesis<br>1 Major Hybrid" },
+          { "spawnTime": "19:15", "techLevel": "4", "strengthLevel": "4", "direction": "↙", "notes": "Air Drop" },
+          { "spawnTime": "20:00", "techLevel": "4", "strengthLevel": "5", "direction": "↗", "notes": "Thrasher + Attack Wave<br>3 Minor Hybrid<br>1 Major Hybrid" },
+          { "spawnTime": "20:20", "techLevel": "3", "strengthLevel": "3", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis" },
+          { "spawnTime": "20:40", "techLevel": "2", "strengthLevel": "3", "direction": "↙", "notes": "Air Drop<br>1 Hybrid Nemesis" },
+          { "spawnTime": "22:30", "techLevel": "4,6", "strengthLevel": "5,5", "direction": "↘↖", "notes": "Double Thrasher + Attack Wave" },
+          { "spawnTime": "23:30", "techLevel": "5", "strengthLevel": "5", "direction": "↘", "notes": "4 Minor Hybrid<br>2 Hybrid Nemesis<br>1 Major Hybrid" },
+          { "spawnTime": "23:40", "techLevel": "3", "strengthLevel": "5", "direction": "↖", "notes": "3 Minor Hybrid<br>2 Hybrid Nemesis<br>1 Major Hybrid" },
+          { "spawnTime": "24:40", "techLevel": "5,6,7", "strengthLevel": "5,5,7", "direction": "↘↖↗", "notes": "-" }
+        ]
+      }
+    ]
   },
   {
     "name": "The Vermillion Problem",
     "id": "the_vermillion_problem",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/thevermillionproblem",
+    "mapTimings": [
+      {
+        "name": "Attack  Times",
+        "description": "Some attack waves in this mission have variance associated with their spawn timings. That is, attack waves have a little bit of randomness as to when they will spawn. The attack wave timings and variances are shown below. A variance of 1:30 seconds means attack waves can spawn anywhere from 1:30 before the attack wave timing to 1:30 after the attack wave timing.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Target",
+            "key": "target"
+          }
+        ],
+        "timings": [
+          { "wave": "1", "spawnTime": "3:30", "techLevel": 1, "strengthLevel": 1, "target": "Main" },
+          { "wave": "2", "spawnTime": "6:00", "techLevel": 2, "strengthLevel": 2, "target": "Main" },
+          { "wave": "3", "spawnTime": "9:00 ± 1:30", "techLevel": 3, "strengthLevel": 4, "target": "Expansion" },
+          { "wave": "4*", "spawnTime": "12:00 ± 1:30", "techLevel": 3, "strengthLevel": 4, "target": "Expansion" },
+          { "wave": "5", "spawnTime": "15:00 ± 1:30", "techLevel": 5, "strengthLevel": 5, "target": "Main" },
+          { "wave": "6", "spawnTime": "18:00 ± 1:30", "techLevel": 5, "strengthLevel": 5, "target": "Main" },
+          { "wave": "7", "spawnTime": "21:00 ± 1:30", "techLevel": 5, "strengthLevel": 5, "target": "Expansion" },
+          { "wave": "8", "spawnTime": "24:00 ± 1:30", "techLevel": 6, "strengthLevel": 6, "target": "Expansion" },
+          { "wave": "9", "spawnTime": "27:00", "techLevel": 5, "strengthLevel": 5, "target": "Expansion" }
+        ]
+      }
+    ]
   },
   {
     "name": "Void Launch",
     "id": "void_launch",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/voidlaunch",
+    "mapTimings": [
+      {
+        "name": "Shuttle Timings",
+        "description": "Shuttle Timings, Headings, Escort Strength and Tech Levels for this mission are shown below. Note that wave #7 will occur in one of three different patterns, all listed in the table.",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Shuttles",
+            "key": "shuttles"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Bay",
+            "key": "bay"
+          },
+          {
+            "title": "Heading",
+            "key": "heading"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          }
+        ],
+        "timings": [
+          { "wave": "1", "shuttles": "2", "spawnTime": "6:18", "bay": "Middle", "heading": "Middle", "techLevel": "1", "strengthLevel": "1" },
+          { "wave": "2", "shuttles": "3", "spawnTime": "9:00", "bay": "Middle", "heading": "Left or Right", "techLevel": "2", "strengthLevel": "2" },
+          { "wave": "3", "shuttles": "3", "spawnTime": "12:30", "bay": "Middle", "heading": "Right or Left", "techLevel": "3", "strengthLevel": "3" },
+          { "wave": "4", "shuttles": "3,3", "spawnTime": "15:30", "bay": "Left,Right or Left,Middle", "heading": "Left,Middle or Middle,Right", "techLevel": "3,4 or 4,3", "strengthLevel": "3,4 or 4,3" },
+          { "wave": "5", "shuttles": "2,2,2", "spawnTime": "18:00", "bay": "Right,Middle,Left", "heading": "Middle,Middle,Middle", "techLevel": "3,4,3", "strengthLevel": "3,4,3" },
+          { "wave": "6", "shuttles": "5", "spawnTime": "20:30", "bay": "Left or Right", "heading": "Right or Left", "techLevel": "6 or 6", "strengthLevel": "6 or 6" },
+          { "wave": "7", "shuttles": "2,3<br>2,3", "spawnTime": "23:00<br>23:45", "bay": "Middle,Right<br>Middle,Left", "heading": "Middle,Right<br>Middle,Left", "techLevel": "7,5<br>7,5", "strengthLevel": "6,5<br>7,5" },
+          { "wave": "7", "shuttles": "2,2<br>3,3", "spawnTime": "23:00<br>23:30<br>23:35", "bay": "Middle<br>Middle<br>Left,Right", "heading": "Left/Right<br>Right/Left<br>Middle,Middle", "techLevel": "4<br>6<br>7,7", "strengthLevel": "5<br>5<br>6,7" },
+          { "wave": "7", "shuttles": "3,3<br>2,2", "spawnTime": "23:00<br>23:40", "bay": "Left,Right<br>Left,Right", "heading": "Middle,Middle<br>Left,Right", "techLevel": "7,6<br>4,6", "strengthLevel": "7,6<br>5,5" }
+        ]
+      },
+      {
+        "name": "Attack Timings",
+        "description": "The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Wave",
+            "key": "wave"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Spawn Point",
+            "key": "spawnPoint"
+          }
+        ],
+        "timings": [
+          { "wave": "1", "spawnTime": "3:00", "techLevel": "1", "strengthLevel": "1", "spawnPoint": "Right" },
+          { "wave": "2", "spawnTime": "5:00", "techLevel": "2", "strengthLevel": "2", "spawnPoint": "Left" },
+          { "wave": "3", "spawnTime": "7:30", "techLevel": "2", "strengthLevel": "2", "spawnPoint": "Side of Expansion with most structures" },
+          { "wave": "4", "spawnTime": "10:00", "techLevel": "3", "strengthLevel": "3", "spawnPoint": "Right" },
+          { "wave": "5", "spawnTime": "11:00", "techLevel": "3", "strengthLevel": "3", "spawnPoint": "Left" },
+          { "wave": "6", "spawnTime": "14:00", "techLevel": "3", "strengthLevel": "3", "spawnPoint": "Side of Warp Conduit with most structures" },
+          { "wave": "7", "spawnTime": "16:48", "techLevel": "4", "strengthLevel": "4", "spawnPoint": "Left" },
+          { "wave": "8", "spawnTime": "19:18", "techLevel": "5", "strengthLevel": "5", "spawnPoint": "Right" },
+          { "wave": "9", "spawnTime": "21:48", "techLevel": "6", "strengthLevel": "6", "spawnPoint": "Right" },
+          { "wave": "10", "spawnTime": "24:18", "techLevel": "7", "strengthLevel": "7", "spawnPoint": "Right" }
+        ]
+      }
+    ]
   },
   {
     "name": "Void Thrashing",
     "id": "void_thrashing",
-    "mapTimings": []
+    "link": "https://starcraft2coop.com/missions/voidthrashing",
+    "mapTimings": [
+      {
+        "name": "Void Thrasher Timings",
+        "description": "The each set of Void Thrashers will spawn at a given time, regardless of the state of the mission. These timings are:",
+        "columns": [
+          {
+            "title": "Set",
+            "key": "set"
+          },
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          }
+        ],
+        "timings": [
+          { "set": 1, "spawnTime": "4:30"},
+          { "set": 2, "spawnTime": "9:20"},
+          { "set": 3, "spawnTime": "13:40"},
+          { "set": 4, "spawnTime": "18:00"}
+        ]
+      },
+      {
+        "name": "Attack Pattern A Timings",
+        "description": "There are two patterns for attack waves in this mission, with different timings. The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Spawn Point",
+            "key": "spawnPoint"
+          }
+        ],
+        "timings": [
+          { "spawnTime": "3:00", "techLevel": "1", "strengthLevel": "1", "spawnPoint": "Right" },
+          { "spawnTime": "6:00", "techLevel": "2", "strengthLevel": "2", "spawnPoint": "Right" },
+          { "spawnTime": "9:00", "techLevel": "3", "strengthLevel": "3", "spawnPoint": "Left" },
+          { "spawnTime": "12:00", "techLevel": "4", "strengthLevel": "4", "spawnPoint": "Left" },
+          { "spawnTime": "15:00", "techLevel": "5", "strengthLevel": "5", "spawnPoint": "Right" },
+          { "spawnTime": "18:00", "techLevel": "6", "strengthLevel": "6", "spawnPoint": "Right" },
+          { "spawnTime": "21:00", "techLevel": "7", "strengthLevel": "7", "spawnPoint": "Left" },
+          { "spawnTime": "24:00", "techLevel": "7", "strengthLevel": "7", "spawnPoint": "Right" }
+        ]
+      },
+      {
+        "name": "Attack Pattern B Timings",
+        "description": "There are two patterns for attack waves in this mission, with different timings. The Attack Wave Timings for this mission are:",
+        "columns": [
+          {
+            "title": "Time",
+            "key": "spawnTime"
+          },
+          {
+            "title": "Tech Level",
+            "key": "techLevel"
+          },
+          {
+            "title": "Strength Level",
+            "key": "strengthLevel"
+          },
+          {
+            "title": "Spawn Point",
+            "key": "spawnPoint"
+          }
+        ],
+        "timings": [
+          { "spawnTime": "4:00", "techLevel": "1", "strengthLevel": "2", "spawnPoint": "Left" },
+          { "spawnTime": "8:00", "techLevel": "2", "strengthLevel": "3", "spawnPoint": "Right" },
+          { "spawnTime": "10:00", "techLevel": "3", "strengthLevel": "3", "spawnPoint": "Left" },
+          { "spawnTime": "14:00", "techLevel": "4", "strengthLevel": "5", "spawnPoint": "Left" },
+          { "spawnTime": "16:00", "techLevel": "5", "strengthLevel": "4", "spawnPoint": "Right" },
+          { "spawnTime": "20:00", "techLevel": "6", "strengthLevel": "7", "spawnPoint": "Left" },
+          { "spawnTime": "22:00", "techLevel": "7", "strengthLevel": "7", "spawnPoint": "Right" },
+          { "spawnTime": "26:00", "techLevel": "7", "strengthLevel": "7", "spawnPoint": "Left" }
+        ]
+      }
+    ]
   }
 ]

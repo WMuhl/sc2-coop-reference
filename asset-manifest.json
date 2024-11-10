@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/sc2-coop-reference/static/css/main.31d6cfe0.css",
-    "main.js": "/sc2-coop-reference/static/js/main.cacd1f6c.js",
+    "main.css": "/sc2-coop-reference/static/css/main.aae9f96a.css",
+    "main.js": "/sc2-coop-reference/static/js/main.a19769ed.js",
     "static/js/453.e7272128.chunk.js": "/sc2-coop-reference/static/js/453.e7272128.chunk.js",
     "index.html": "/sc2-coop-reference/index.html",
-    "main.cacd1f6c.js.map": "/sc2-coop-reference/static/js/main.cacd1f6c.js.map",
+    "main.aae9f96a.css.map": "/sc2-coop-reference/static/css/main.aae9f96a.css.map",
+    "main.a19769ed.js.map": "/sc2-coop-reference/static/js/main.a19769ed.js.map",
     "453.e7272128.chunk.js.map": "/sc2-coop-reference/static/js/453.e7272128.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.cacd1f6c.js"
+    "static/css/main.aae9f96a.css",
+    "static/js/main.a19769ed.js"
   ]
 }

@@ -2,6 +2,7 @@
   {
     "name": "Raynor",
     "id": "raynor",
+    "link": "https://starcraft2coop.com/commanders/raynor",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -44,6 +45,7 @@
   {
     "name": "Kerrigan",
     "id": "kerrigan",
+    "link": "https://starcraft2coop.com/commanders/kerrigan",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -82,6 +84,7 @@
   {
     "name": "Artanis",
     "id": "artanis",
+    "link": "https://starcraft2coop.com/commanders/artanis",
     "recommendedBuildOrder": [
       {
         "supplyCount": 13,
@@ -132,6 +135,7 @@
   {
     "name": "Swann",
     "id": "swann",
+    "link": "https://starcraft2coop.com/commanders/swann",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -158,6 +162,7 @@
   {
     "name": "Zagara",
     "id": "zagara",
+    "link": "https://starcraft2coop.com/commanders/zagara",
     "recommendedBuildOrder": [
       {
         "supplyCount": 9,
@@ -196,6 +201,7 @@
   {
     "name": "Vorazun",
     "id": "vorazun",
+    "link": "https://starcraft2coop.com/commanders/vorazun",
     "recommendedBuildOrder": [
       {
         "supplyCount": 13,
@@ -242,6 +248,7 @@
   {
     "name": "Karax",
     "id": "karax",
+    "link": "https://starcraft2coop.com/commanders/karax",
     "recommendedBuildOrder": [
       {
         "supplyCount": 13,
@@ -280,6 +287,7 @@
   {
     "name": "Abathur",
     "id": "abathur",
+    "link": "https://starcraft2coop.com/commanders/abathur",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -330,6 +338,7 @@
   {
     "name": "Alarak",
     "id": "alarak",
+    "link": "https://starcraft2coop.com/commanders/alarak",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -364,6 +373,7 @@
   {
     "name": "Nova",
     "id": "nova",
+    "link": "https://starcraft2coop.com/commanders/nova",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -390,6 +400,7 @@
   {
     "name": "Stukov",
     "id": "stukov",
+    "link": "https://starcraft2coop.com/commanders/stukov",
     "recommendedBuildOrder": [
       {
         "supplyCount": 15,
@@ -432,6 +443,7 @@
   {
     "name": "Fenix",
     "id": "fenix",
+    "link": "https://starcraft2coop.com/commanders/fenix",
     "recommendedBuildOrder": [
       {
         "supplyCount": 15,
@@ -466,6 +478,7 @@
   {
     "name": "Dehaka",
     "id": "dehaka",
+    "link": "https://starcraft2coop.com/commanders/dehaka",
     "recommendedBuildOrder": [
       {
         "supplyCount": 23,
@@ -500,6 +513,7 @@
   {
     "name": "Han &  Horner",
     "id": "horner",
+    "link": "https://starcraft2coop.com/commanders/horner",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -530,6 +544,7 @@
   {
     "name": "Tychus",
     "id": "tychus",
+    "link": "https://starcraft2coop.com/commanders/tychus",
     "recommendedBuildOrder": [
       {
         "supplyCount": 17,
@@ -556,6 +571,7 @@
   {
     "name": "Zeratul",
     "id": "zeratul",
+    "link": "https://starcraft2coop.com/commanders/zeratul",
     "recommendedBuildOrder": [
       {
         "supplyCount": 18,
@@ -574,6 +590,7 @@
   {
     "name": "Stetmann",
     "id": "stetmann",
+    "link": "https://starcraft2coop.com/commanders/stetmann",
     "recommendedBuildOrder": [
       {
         "supplyCount": 14,
@@ -632,6 +649,7 @@
   {
     "name": "Mengsk",
     "id": "mengsk",
+    "link": "https://starcraft2coop.com/commanders/mengsk",
     "recommendedBuildOrder": [
       {
         "supplyCount": 13,
